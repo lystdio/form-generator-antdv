@@ -14,6 +14,11 @@ const routes = [
     path: '/parser',
     name: 'parser',
     component: () => import(/* webpackChunkName: "parser-example" */'@/components/parser/example/Index.vue')
+  },
+  {
+    path: '/info',
+    name: 'info',
+    component: () => import(/* webpackChunkName: "info" */'@/components/info/Index.vue')
   }
 ]
 

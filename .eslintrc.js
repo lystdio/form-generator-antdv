@@ -6,6 +6,7 @@ module.exports = {
   extends: ['plugin:vue/recommended', 'eslint:recommended', 'airbnb-base'],
   rules: {
     'linebreak-style': 0,
+    "operator-linebreak": [2, "after"],
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'vue/no-unused-components': 0,
